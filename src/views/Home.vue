@@ -1,5 +1,5 @@
 <template>
-    <PatchMeta :title="section ? section : 'Minimal Vue3 + Markdown blog engine'" />
+    <PatchMeta :title="section ? section : 'Home'" />
     <NavBar :sections="allSections" />
 
     <div v-bind:style="`background-color: ${VUE_APP_MAIN_BG_CSS_COLOR}; color: ${VUE_APP_MAIN_TEXT_CSS_COLOR};`">
