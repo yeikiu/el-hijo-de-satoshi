@@ -8,35 +8,11 @@
         "url": "blog_store/posts/opinión/hola-mundo.md"
     },
     {
-        "id": "setup-yor-own-blog",
-        "section": "guide",
-        "date": "February 11, 2020",
-        "title": "Setup your own Blog in under 5 minutes",
-        "description": "> This tutorial assumes you have the following installed on your system: > > - An active GitHub account > - GIT > - NodeJS 1.- Get your own repo Login into your GitHub account and start a new repo. Use vue-base-blog as a template Public Dir Structure 2.- Configure your .env file DISTPUBLICPATH= VUEAPPPOSTSPERPAGE=5 3.- Test locally Make sure your terminal is within...",
-        "url": "blog_store/posts/guide/setup-yor-own-blog.md"
-    },
-    {
-        "id": "post-with-a-simple-git-commit",
-        "section": "guide",
-        "date": "February 09, 2020",
-        "title": "Post with a simple GIT commit 🕶",
-        "description": "> This tutorial is based on VSCode but any IDE with an integrated shell will do the job. This is me, writing this very line right now Public Dir Structure There is a few interesting things to notice in the image, take a second look. Basically every time you want to create a new post you will need to create a new-post-file.md file following...",
-        "url": "blog_store/posts/guide/post-with-a-simple-git-commit.md"
-    },
-    {
         "id": "customise-your-blog",
         "section": "guide",
         "date": "February 9, 2019",
         "title": "Customise your blog",
         "description": "TODO WIP...",
         "url": "blog_store/posts/guide/customise-your-blog.md"
-    },
-    {
-        "id": "use-a-custom-domain-name",
-        "section": "guide",
-        "date": "February 9, 2019",
-        "title": "Use a custom domain name",
-        "description": "TODO WIP...",
-        "url": "blog_store/posts/guide/use-a-custom-domain-name.md"
     }
 ]
