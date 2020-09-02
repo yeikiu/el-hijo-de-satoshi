@@ -1,18 +1,13 @@
 {
-  "name": "vue-base-blog",
+  "name": "el-hijo-de-satoshi",
   "version": "2.1.6",
-  "description": "Minimal Vue3 + Markdown blog engine",
+  "description": "Not only a crypto blog",
   "author": "JQ (https://github.com/yeikiu)",
-  "keywords": [
-    "vuejs",
-    "markdown",
-    "github"
-  ],
   "license": "CC0-1.0",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/yeikiu/vue-base-blog.git"
+    "url": "https://github.com/yeikiu/el-hijo-de-satoshi.git"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
