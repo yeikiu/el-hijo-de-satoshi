@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-md navbar-light" v-bind:style="`background-color: ${VUE_APP_NAVBAR_BG_CSS_COLOR}; color: ${VUE_APP_NAVBAR_TEXT_CSS_COLOR};`">
-    <a class="navbar-brand" href="#/" v-bind:style="`color: ${VUE_APP_NAVBAR_TEXT_CSS_COLOR};`">🏠 vue-base-blog</a>
+    <a class="navbar-brand" href="#/" v-bind:style="`color: ${VUE_APP_NAVBAR_TEXT_CSS_COLOR};`">🏠 El Hijo de Satoshi</a>
     <button :class="`navbar-toggler ${collapseMenu ? 'collapsed' : ''}`" @click="collapseMenu = !collapseMenu" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" :aria-expanded="!collapseMenu" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon" v-bind:style="`background-color: ${VUE_APP_NAVBAR_TEXT_CSS_COLOR};`"></span>
     </button>
