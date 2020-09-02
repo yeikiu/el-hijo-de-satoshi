@@ -40,6 +40,14 @@
         "url": "blog_store/posts/features/markdown-posts.md"
     },
     {
+        "id": "hola-mundo",
+        "section": "opinión",
+        "date": "September 2, 2019",
+        "title": "Hola Mundo",
+        "description": "Este será el primer artículo de opinión......",
+        "url": "blog_store/posts/opinión/hola-mundo.md"
+    },
+    {
         "id": "customise-your-blog",
         "section": "guide",
         "date": "February 9, 2019",
