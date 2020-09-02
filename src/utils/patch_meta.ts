@@ -7,11 +7,11 @@ type PatchMetaT = {
 }
 
 export const defaultValues = {
-  title: 'Minimal Vue3 + Markdown blog engine',
-  description: 'Simply fork and deploy!',
-  previewUrl: 'https://github.com/yeikiu/vue-base-blog/blob/master/src/assets/logo.png?raw=true',
-  shareUrl: 'https://yeikiu.github.io/vue-base-blog/#/',
-  siteName: 'vue-base-blog'
+  title: 'El Hijo de Satoshi',
+  description: 'Not just a crypto blog!',
+  previewUrl: 'https://github.com/yeikiu/el-hijo-de-satoshi/blob/master/src/assets/logo.png?raw=true',
+  shareUrl: 'http://elhijodesatoshi.com/#/',
+  siteName: 'El Hijo de Satoshi'
 }
 
 const patchMeta = ({
