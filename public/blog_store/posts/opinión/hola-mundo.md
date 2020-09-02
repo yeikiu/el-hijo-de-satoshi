@@ -1,4 +1,4 @@
 # Hola Mundo
-#### September 2, 2019
+#### September 2, 2020
 
-Este será el primer artículo de opinión...
+Este será el primer artículo de opinión de JQ...
