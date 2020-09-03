@@ -1,5 +1,13 @@
 [
     {
+        "id": "how-you-should-be-managing-credentials",
+        "section": "seguridad",
+        "date": "September 4, 2020",
+        "title": "How you should be managing your credentials",
+        "description": "WIP post......",
+        "url": "blog_store/posts/seguridad/how-you-should-be-managing-credentials.md"
+    },
+    {
         "id": "hola-mundo",
         "section": "opinión",
         "date": "September 2, 2020",
