@@ -1,11 +1,11 @@
 [
     {
-        "id": "how-you-should-be-managing-credentials",
+        "id": "gestiona-tus-credenciales-como-un-ninja",
         "section": "seguridad",
         "date": "September 4, 2020",
-        "title": "How you should be managing your credentials",
-        "description": "WIP post......",
-        "url": "blog_store/posts/seguridad/how-you-should-be-managing-credentials.md"
+        "title": "Gestiona tus credenciales como un ninja",
+        "description": "Seguro que has pensado alguna vez que el sitema de acceso de cualquier web/app/sistema estaba simplemente diseñado contra ti. Admitámoslo, las contraseñas son un problema desde que existen. De hecho ¿Hay algo más odioso que tener que crear una nueva? Conozco muchos gilipollas y aún así me cuesta imaginarme a ninguno de ellos reposando su primer café de la mañana mientras frota sus manos...",
+        "url": "blog_store/posts/seguridad/gestiona-tus-credenciales-como-un-ninja.md"
     },
     {
         "id": "hola-mundo",
