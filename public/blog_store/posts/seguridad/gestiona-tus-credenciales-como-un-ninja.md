@@ -5,7 +5,7 @@ Seguro que has pensado alguna vez que el sitema de acceso de cualquier web/app/s
 
 Pero hoy voy a tratar de convencerte de algo tan cierto que si lo firmara un griego de nombre cool tipo _Trifásides_ de hace alguno siglos por ejemplo todos aplaudirían con las orejas. ¿Estás sentado?
 
-|"Utilizar un sistema seguro de gestión de credenciales es más fácil, más rápido y más cómodo que no hacerlo"
+> "Utilizar un sistema seguro de gestión de credenciales es más fácil, más rápido y más cómodo que no hacerlo" 😎
 
 <iframe src="https://giphy.com/embed/8cjj74dzci0EnjxqOJ" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/SpotifyJapan-spotify-stray-kids-straykids-8cjj74dzci0EnjxqOJ">via GIPHY</a></p>
 
@@ -22,4 +22,12 @@ Eso lo firmo yo. Y esto es mi intento por convencerte.
 
 ### Manual sintetizado de buenas praxis
 
-...WIP
+* Utiliza un software de gestión. Aquí algunas recomendaciones: [KeePass](https://keepass.info/) (open-source, gratuito) | [1Password](https://1password.com/) (suscripción)
+
+* Ahora sólo tendrás una contraseña que recordar (la maestra que descifra el resto), tarda el tiempo necesario y ten en cuenta que nada bajo 12 caracteres y que no utilice algún caracter fuera del rango `[a-z]` o `[0-9]` se puede considerar seguro. Tampoco te excedas poniéndote un reto diario a la hora de recordar la forma de escribirla incluso cuando recuerdas perfectamente la base. Mi consejo: Utiliza una frase o secuencia de palabras (tipo letra de canción pero no en el orden exacto o con cambios sutiles) y separa con algo diferente del espacio las palabras `[$,%,&,*,...]`
+
+* Descarga tu software en todas las plataformas que necesites, por ejemplo [Keepass2Android Password Safe](https://play.google.com/store/apps/details?id=keepass2android.keepass2android) puede abrir el fichero que has generado en tu ordenador con _KeePass_ y viceversa.
+
+* Procura mantener un Pen-Drive exclusivamente con tu software y tu fichero de credenciales cifrado bajo tu clave maestra (hay adaptadores para smartphone que te permiten leer un Pen-Drive estándar)
+
+* No mantengas copias de tu fichero en _La Nube_, hazme caso.
