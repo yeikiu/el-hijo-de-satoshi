@@ -22,12 +22,17 @@ Eso lo firmo yo. Y esto es mi intento por convencerte.
 
 ### Manual sintetizado de buenas praxis
 
-* Utiliza un software de gestión. Aquí algunas recomendaciones: [KeePass](https://keepass.info/) (open-source, gratuito) | [1Password](https://1password.com/) (suscripción)
+* Utiliza un software de gestión. Aquí algunas recomendaciones:
+  - [KeePass (Win)](https://keepass.info/) | [KeePassX (Mac)](https://www.keepassx.org/) - open-source, gratuito
+  - [1Password](https://1password.com/) - suscripción
 
-* Ahora sólo tendrás una contraseña que recordar (la maestra que descifra el resto), tarda el tiempo necesario y ten en cuenta que nada bajo 12 caracteres y que no utilice algún caracter fuera del rango `[a-z]` o `[0-9]` se puede considerar seguro. Tampoco te excedas poniéndote un reto diario a la hora de recordar la forma de escribirla incluso cuando recuerdas perfectamente la base. Mi consejo: Utiliza una frase o secuencia de palabras (tipo letra de canción pero no en el orden exacto o con cambios sutiles) y separa con algo diferente del espacio las palabras `[$,%,&,*,...]`
+* Ahora sólo tendrás una contraseña que recordar: La maestra, que descifra el resto.
+  - Tarda el tiempo necesario y ten en cuenta que nada bajo 12 caracteres y que no utilice algún caracter fuera del rango `[a-z]` o `[0-9]` se puede considerar seguro.
+  - Tampoco te excedas poniéndote un reto diario a la hora de recordar la forma de escribirla incluso cuando recuerdas perfectamente la base.
+  - Utiliza una frase o secuencia de palabras (tipo letra de canción pero no en el orden exacto o con cambios sutiles) y separa con algo diferente del espacio las palabras `[$,%,&,*,...]`
 
-* Descarga tu software en todas las plataformas que necesites, por ejemplo [Keepass2Android Password Safe](https://play.google.com/store/apps/details?id=keepass2android.keepass2android) puede abrir el fichero que has generado en tu ordenador con _KeePass_ y viceversa.
+* Descarga tu software en todas las plataformas que necesites, por ejemplo [Keepass2Android Password Safe](https://play.google.com/store/apps/details?id=keepass2android.keepass2android) puede abrir en tu teléfono _Android_ el fichero que has generado en el PC con _KeePass_ y viceversa.
 
-* Procura mantener un Pen-Drive exclusivamente con tu software y tu fichero de credenciales cifrado bajo tu clave maestra (hay adaptadores para smartphone que te permiten leer un Pen-Drive estándar)
+* Procura mantener un Pen-Drive exclusivamente con tu software (descarga la versión portable que no requiere instalación) y tu fichero de credenciales cifrado bajo clave maestra.
 
-* No mantengas copias de tu fichero en _La Nube_, hazme caso.
+* No mantengas copias de tu fichero en _La Nube_, hazme caso. De nada.
