@@ -26,10 +26,12 @@ Eso lo firmo yo. Y esto es mi intento por convencerte.
   - [KeePass (Win)](https://keepass.info/) | [KeePassX (Mac)](https://www.keepassx.org/) - open-source, gratuito
   - [1Password](https://1password.com/) - suscripción
 
-* Ahora sólo tendrás una contraseña que recordar: La maestra, que descifra el resto.
+* Ahora sólo tendrás una contraseña que recordar: La maestra que descifra el resto. Ten en cuenta estos consejos a la hora de establecerla.
   - Tarda el tiempo necesario y ten en cuenta que nada bajo 12 caracteres y que no utilice algún caracter fuera del rango `[a-z]` o `[0-9]` se puede considerar seguro.
   - Tampoco te excedas poniéndote un reto diario a la hora de recordar la forma de escribirla incluso cuando recuerdas perfectamente la base.
   - Utiliza una frase o secuencia de palabras (tipo letra de canción pero no en el orden exacto o con cambios sutiles) y separa con algo diferente del espacio las palabras `[$,%,&,*,...]`
+  
+* A la hora de crear un nuevo usuario para cualquier sitio elige la generación automática y no te preocupes de intentar recordarla, es más seguro así.
 
 * Descarga tu software en todas las plataformas que necesites, por ejemplo [Keepass2Android Password Safe](https://play.google.com/store/apps/details?id=keepass2android.keepass2android) puede abrir en tu teléfono _Android_ el fichero que has generado en el PC con _KeePass_ y viceversa.
 
