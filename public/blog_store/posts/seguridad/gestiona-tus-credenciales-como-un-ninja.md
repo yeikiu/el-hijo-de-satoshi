@@ -1,4 +1,4 @@
-# Gestiona tus credenciales como un ninja
+# Gestiona tus credenciales como un ninja 🔐
 #### September 4, 2020
 
 Seguro que has pensado alguna vez que el sitema de acceso de cualquier web/app/sistema estaba simplemente diseñado contra ti. Admitámoslo, las contraseñas son un problema desde que existen. De hecho ¿Hay algo más odioso que tener que crear una nueva? Conozco muchos gilipollas y aún así me cuesta imaginarme a ninguno de ellos reposando su primer café de la mañana mientras frota sus manos 5 cm. sobre el teclado y exclama _"Bien y ahora... ¡A generar un par de contraseñas épicas!"_
@@ -34,6 +34,7 @@ Eso lo firmo yo. Y esto es mi intento por convencerte.
 * A la hora de crear un nuevo usuario para cualquier sitio elige la generación automática y no te preocupes de intentar recordarla, es más seguro así.
 
 * Descarga tu software en todas las plataformas que necesites, por ejemplo [Keepass2Android Password Safe](https://play.google.com/store/apps/details?id=keepass2android.keepass2android) puede abrir en tu teléfono _Android_ el fichero que has generado en el PC con _KeePass_ y viceversa.
+  - Si tu móvil tiene lector de huella, podrás vincular tu huella a tu clave maestra y así escribirla una sóla vez. ☝️
 
 * Procura mantener un Pen-Drive exclusivamente con tu software (descarga la versión portable que no requiere instalación) y tu fichero de credenciales cifrado bajo clave maestra.
 
