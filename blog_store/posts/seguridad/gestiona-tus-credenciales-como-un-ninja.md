@@ -7,7 +7,7 @@ Pero hoy voy a tratar de convencerte de algo tan cierto que si lo firmara un gri
 
 > "Utilizar un sistema seguro de gestión de credenciales es más fácil, más rápido y más cómodo que no hacerlo" 😎
 
-<iframe src="https://giphy.com/embed/8cjj74dzci0EnjxqOJ" width="100%" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/SpotifyJapan-spotify-stray-kids-straykids-8cjj74dzci0EnjxqOJ">via GIPHY</a></p>
+<iframe height="250px" widh="100%" frameborder="0" src="https://giphy.com/embed/8cjj74dzci0EnjxqOJ"></iframe>
 
 Eso lo firmo yo. Y esto es mi intento por convencerte.
 
