@@ -20,11 +20,13 @@ Eso lo firmo yo. Y esto es mi intento por convencerte.
 | Recordar una contraseña específica | 25 | 0 |
 | Insertar usuario y contraseña en cada campo del formulario | 15 | 5 |
 
+> Todos los software de gestión de credenciales funcionan más o menos bajo el mismo principio: _"Sólo necesitas un fichero cifrado y una clave conocida para descifrarlo."_
+
 ### Manual sintetizado de buenas praxis
 
 * Utiliza un software de gestión. Aquí algunas recomendaciones:
-  - [KeePass (Win)](https://keepass.info/) | [KeePassX (Mac)](https://www.keepassx.org/) - open-source, gratuito
-  - [1Password](https://1password.com/) - suscripción
+  - [KeePass (Win)](https://keepass.info/) | [KeePassX (Mac)](https://www.keepassx.org/) - open-source, offline, gratuito
+  - [1Password](https://1password.com/) - suscripción, sincronización online entre distintos dispositivos
 
 * Ahora sólo tendrás una contraseña que recordar: La maestra que descifra el resto. Ten en cuenta estos consejos a la hora de establecerla.
   - Tarda el tiempo necesario y ten en cuenta que nada bajo 12 caracteres y que no utilice algún caracter fuera del rango `[a-z]` o `[0-9]` se puede considerar seguro.
