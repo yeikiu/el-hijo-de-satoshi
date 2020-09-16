@@ -3,7 +3,7 @@
 
 > 0x000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f
 
-Dado que estás leyendo el génesis de este blog medianamente serio y nada pretensioso, me parecía un bonito tributo a mi Papá que la primera línea del primer post le corresponda al [_genesis block hash_](https://en.bitcoin.it/wiki/Genesis_block) de nuestra contribución familiar a la humanidad (y quien quiera que la conquiste detrás): El ₿itcoin
+Bienvenido al génesis de este blog medianamente serio y nada pretensioso. Me parecía un bonito tributo que la primera línea del primer post le corresponda al [_genesis block hash_](https://en.bitcoin.it/wiki/Genesis_block) de la última revolución tecnológica de la humanidad (y quien quiera que la conquiste detrás): El ₿itcoin
 
 ### ¿Qué puedes esperar encontrar por aquí?
 
@@ -17,6 +17,6 @@ Nunca he sido mucho de pautas ni patrones, conocí cada esquina de cada despacho
 
 ### Sobre el autor
 
-Esto no es un proyecto biográfico ni nada parecido y aunque mi padre es [Satoshi Nakamoto](https://es.wikipedia.org/wiki/Satoshi_Nakamoto) poco más encontrarás en las próximas líneas y páginas sobre mi persona/familia. Quédate si entiendes que nuestro anonimato es necesario para el bien de la crypto-economía. Las razones detrás de esta necesidad sí serán explicadas. Aún así, entiendo perfectamente que sea objeto de debate, debatámoslo.
+Esto no es un proyecto biográfico ni nada parecido y aunque mi padre es [Satoshi Nakamoto](https://es.wikipedia.org/wiki/Satoshi_Nakamoto) poco más encontrarás en las próximas líneas y páginas sobre mi persona/familia. Quédate si entiendes que el anonimato del clan _Nakamoto_ es necesario para el bien de la crypto-economía. Las razones detrás de esta necesidad sí serán explicadas. Aún así, entiendo perfectamente que sea objeto de debate. Debatámoslo.
 
 Ya con los propósitos expuestos y el blog presentado, sólo me queda agradecerte que estés aquí y espero estar ya en tu barra de marcadores (esa que ya no usas desde que existe el autocompletar).
