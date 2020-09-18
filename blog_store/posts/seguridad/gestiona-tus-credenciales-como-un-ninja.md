@@ -20,7 +20,7 @@ Eso lo firmo yo. Y esto es mi intento por convencerte.
 | Recordar una contraseña específica | 25 | 0 |
 | Insertar usuario y contraseña en cada campo del formulario | 15 | 5 |
 
-> Todos los software de gestión de credenciales funcionan más o menos bajo el mismo principio: _"Sólo necesitas un fichero cifrado y una clave conocida para descifrarlo."_
+> Todos los software de gestión de credenciales funcionan más o menos bajo el mismo principio: _"Sólo necesitas un fichero cifrado y una única clave maestra para descifrarlo."_
 
 ### Manual sintetizado de buenas praxis
 
