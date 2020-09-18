@@ -1,5 +1,13 @@
 [
     {
+        "id": "winston-churchill",
+        "section": "citas",
+        "date": "September 18, 2020",
+        "title": "“Ya no escucho lo que dicen las personas; Me limito a observarlas. La conducta no miente.”",
+        "description": "— Winston Churchill",
+        "url": "blog_store/posts/citas/winston-churchill"
+    },
+    {
         "id": "naval-ravikant",
         "section": "citas",
         "date": "September 14, 2020",
