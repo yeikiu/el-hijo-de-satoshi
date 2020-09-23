@@ -1,5 +1,13 @@
 [
     {
+        "id": "benjamin-franklin",
+        "section": "citas",
+        "date": "September 23, 2020",
+        "title": "“Tell me and I forget, teach me and I may remember, involve me and I learn.”",
+        "description": "— Benjamin Franklin",
+        "url": "blog_store/posts/citas/benjamin-franklin"
+    },
+    {
         "id": "winston-churchill",
         "section": "citas",
         "date": "September 18, 2020",
