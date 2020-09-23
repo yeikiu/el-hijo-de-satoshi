@@ -3,7 +3,7 @@
 
 Seguro que has pensado alguna vez que el sitema de acceso de cualquier web/app/sistema estaba simplemente diseñado contra ti. Admitámoslo, las contraseñas son un problema desde que existen. De hecho ¿Hay algo más odioso que tener que crear una nueva? Conozco muchos gilipollas y aún así me cuesta imaginarme a ninguno de ellos reposando su primer café de la mañana mientras frota sus manos 5 cm. sobre el teclado y exclama _"Bien y ahora... ¡A generar un par de contraseñas épicas!"_
 
-Pero hoy voy a tratar de convencerte de algo tan cierto que si lo firmara un griego de nombre cool tipo _Trifásides_ de hace alguno siglos por ejemplo todos aplaudirían con las orejas. ¿Estás sentado?
+Pero hoy voy a tratar de convencerte de algo tan cierto que si lo firmara un griego antiguo de nombre cool tipo _Trifásides_, todos aplaudirían con las orejas. ¿Estás sentado?
 
 > "Utilizar un sistema seguro de gestión de credenciales es más fácil, más rápido y más cómodo que no hacerlo" 😎
 
