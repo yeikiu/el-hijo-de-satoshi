@@ -1,9 +1,10 @@
 <template>
   <PatchMeta />
+  <NavBar :title="'👶 El Hijo de Satoshi 🕶️'" :sections="blogSections" />
   <Suspense>
     <template #default>
       <router-view />
-      <Footer></Footer>
+      <Footer />
     </template>
     <template #fallback>
       <Loader />
@@ -12,17 +13,24 @@
 </template>
 
 <script lang="ts">
-import Loader from '@/components/Loader.vue'
-import Footer from '@/components/Footer.vue'
+import { defineComponent, inject } from 'vue'
 import PatchMeta from '@/components/PatchMeta.vue'
+import Loader from '@/components/Loader.vue'
+import NavBar from '@/components/NavBar.vue'
+import Footer from '@/components/Footer.vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'github-markdown-css/github-markdown.css'
 
-export default {
+export default defineComponent({
   components: {
+    PatchMeta,
     Loader,
-    Footer,
-    PatchMeta
+    NavBar,
+    Footer
+  },
+  setup () {
+    const blogSections = inject('blogSections', {})
+    return { blogSections }
   }
-}
+})
 </script>
