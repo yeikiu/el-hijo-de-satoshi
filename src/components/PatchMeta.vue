@@ -2,37 +2,66 @@
   <span />
 </template>
 
-<script language="ts">
+<script lang="ts">
 import { onMounted, defineComponent } from 'vue'
-import patchMeta, { defaultValues } from '@/utils/patch_meta'
 
-const { title, description, previewUrl, shareUrl, siteName } = defaultValues
+const defaultMetas = {
+  siteName: 'El Hijo de Satoshi',
+  title: 'El Hijo de Satoshi',
+  description: 'Not just a crypto blog!',
+  previewUrl: 'http://elhijodesatoshi.com/android-chrome-192x192.png',
+  shareUrl: 'http://elhijodesatoshi.com/#/'
+}
+
+const patchMeta = ({
+  siteName = defaultMetas.siteName,
+  title = defaultMetas.title,
+  description = defaultMetas.description,
+  previewUrl = defaultMetas.previewUrl,
+  shareUrl = defaultMetas.shareUrl
+}) => {
+  // Patch title
+  const [titleEl] = document.getElementsByTagName('title')
+  titleEl.textContent = `${siteName} | ${title} - ${description}`
+
+  // Patch META
+  Array.from(document.getElementsByClassName('APP_META')).forEach(el => { el.remove() })
+  const APP_META = `<meta class="APP_META" property="og:title" content="${title}">
+      <meta class="APP_META" property="og:description" content="${description}">
+      <meta class="APP_META" property="og:image" content="${previewUrl}">
+      <meta class="APP_META" property="og:url" content="${shareUrl}">
+      <meta class="APP_META" name="twitter:card" content="summary_large_image">
+      <meta class="APP_META" property="og:site_name" content="${siteName}">`
+  const [headEl] = document.getElementsByTagName('head')
+  if (!headEl) return
+  headEl.innerHTML = `${headEl.innerHTML}${APP_META}`
+}
 
 export default defineComponent({
   props: {
+    siteName: {
+      type: String,
+      default: defaultMetas.siteName
+    },
     title: {
       type: String,
-      default: title
+      default: defaultMetas.title
     },
     description: {
       type: String,
-      default: description
+      default: defaultMetas.description
     },
     previewUrl: {
       type: String,
-      default: previewUrl
+      default: defaultMetas.previewUrl
     },
     shareUrl: {
       type: String,
-      default: shareUrl
-    },
-    siteName: {
-      type: String,
-      default: siteName
+      default: defaultMetas.shareUrl
     }
   },
   setup (props) {
-    onMounted(async () => {
+    onMounted(() => {
       patchMeta(props)
     })
   }
