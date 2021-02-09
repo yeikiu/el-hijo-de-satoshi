@@ -1,11 +1,19 @@
 [
     {
+        "id": "seneca-the-younger",
+        "section": "citas",
+        "date": "February 09, 2021",
+        "title": "“Luck is what happens when preparation meets opportunity.”",
+        "description": "— Seneca the Younger",
+        "url": "blog_store/posts/citas/seneca-the-younger.md"
+    },
+    {
         "id": "benjamin-franklin",
         "section": "citas",
         "date": "September 23, 2020",
         "title": "“Tell me and I forget; Teach me and I may remember; Involve me and I learn.”",
         "description": "— Benjamin Franklin",
-        "url": "blog_store/posts/citas/benjamin-franklin"
+        "url": "blog_store/posts/citas/benjamin-franklin.md"
     },
     {
         "id": "winston-churchill",
@@ -13,7 +21,7 @@
         "date": "September 18, 2020",
         "title": "“Ya no escucho lo que dicen las personas; Me limito a observarlas. La conducta no miente.”",
         "description": "— Winston Churchill",
-        "url": "blog_store/posts/citas/winston-churchill"
+        "url": "blog_store/posts/citas/winston-churchill.md"
     },
     {
         "id": "naval-ravikant",
@@ -21,7 +29,7 @@
         "date": "September 14, 2020",
         "title": "“El único test real de inteligencia es conseguir todo lo que te pronpongas de la vida.”",
         "description": "— Naval Ravikant",
-        "url": "blog_store/posts/citas/naval-ravikant"
+        "url": "blog_store/posts/citas/naval-ravikant.md"
     },
     {
         "id": "gestiona-tus-credenciales-como-un-ninja",
