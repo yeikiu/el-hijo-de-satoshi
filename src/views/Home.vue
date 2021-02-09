@@ -53,6 +53,8 @@ import { PostIndex } from '@/types/PostIndex'
 
 const { VUE_APP_POSTS_PER_PAGE = 5, VUE_APP_MAIN_BG_CSS_COLOR = 'white', VUE_APP_MAIN_TEXT_CSS_COLOR = 'black' } = process.env
 
+const CATEGORY_BLACKLIST = ['citas']
+
 export default defineComponent({
   components: {
     PatchMeta,
@@ -68,7 +70,7 @@ export default defineComponent({
     })
 
     const pageStatus = computed(() => {
-      const categoryPosts = props.section ? postsIndex.filter(({ section }) => section === props.section) : postsIndex
+      const categoryPosts = props.section ? postsIndex.filter(({ section }) => section === props.section) : postsIndex.filter(({ section }) => !CATEGORY_BLACKLIST.includes(section))
       const { startPage, endPage, startIndex, endIndex } = paginate(categoryPosts.length, state.currentPage, VUE_APP_POSTS_PER_PAGE)
       const prev = state.currentPage - 1 >= startPage ? state.currentPage - 1 : 0
       const next = state.currentPage + 1 <= endPage ? state.currentPage + 1 : 0
