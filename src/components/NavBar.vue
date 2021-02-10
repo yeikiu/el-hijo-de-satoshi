@@ -12,7 +12,8 @@
             Categorías
           </a>
           <div :class="`dropdown-menu ${showDropdown ? 'show' : ''}`" style="max-height: 200px; overflow: scroll;">
-            <router-link v-for="(count, section) of sections" :key="section" class="dropdown-item text-capitalize" :to="section === 'todas' ? '/' : `/${section}`" @click="showDropdown=false">{{section}} ({{count}})</router-link>
+            <router-link class="dropdown-item text-capitalize" :to="'/'" @click="showDropdown=false">Ver Todas</router-link>
+            <router-link v-for="(count, section) of sections" :key="section" class="dropdown-item text-capitalize" :to="`/${section}`" @click="showDropdown=false">{{section}} ({{count}})</router-link>
           </div>
         </li>
       </ul>
