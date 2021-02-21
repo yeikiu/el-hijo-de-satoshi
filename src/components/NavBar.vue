@@ -1,19 +1,69 @@
 <template>
-  <nav class="navbar navbar-expand-md navbar-light mb-0" v-bind:style="`background-color: ${VUE_APP_NAVBAR_BG_CSS_COLOR}; color: ${VUE_APP_NAVBAR_TEXT_CSS_COLOR};`">
-    <router-link class="navbar-brand" :to="'/'" v-bind:style="`color: ${VUE_APP_NAVBAR_TEXT_CSS_COLOR};`">{{title}}</router-link>
-    <button :class="`navbar-toggler ${collapseMenu ? 'collapsed' : ''}`" @click="collapseMenu = !collapseMenu" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" :aria-expanded="!collapseMenu" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon" v-bind:style="`background-color: ${VUE_APP_NAVBAR_TEXT_CSS_COLOR};`"></span>
+  <nav
+    class="navbar navbar-expand-md navbar-light mb-0"
+    :style="`background-color: ${VUE_APP_NAVBAR_BG_CSS_COLOR}; color: ${VUE_APP_NAVBAR_TEXT_CSS_COLOR};`"
+  >
+    <router-link
+      class="navbar-brand"
+      :to="'/'"
+      :style="`color: ${VUE_APP_NAVBAR_TEXT_CSS_COLOR};`"
+    >
+      {{ title }}
+    </router-link>
+    <button
+      :class="`navbar-toggler ${collapseMenu ? 'collapsed' : ''}`"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown"
+      :aria-expanded="!collapseMenu"
+      aria-label="Toggle navigation"
+      @click="collapseMenu = !collapseMenu"
+    >
+      <span
+        class="navbar-toggler-icon"
+        :style="`background-color: ${VUE_APP_NAVBAR_TEXT_CSS_COLOR};`"
+      />
     </button>
 
-    <div :class="`navbar-collapse collapse ${collapseMenu ? '' : 'show'}`" id="navbarNavDropdown">
+    <div
+      id="navbarNavDropdown"
+      :class="`navbar-collapse collapse ${collapseMenu ? '' : 'show'}`"
+    >
       <ul class="ml-auto mr-5 pr-5 navbar-nav">
         <li :class="`nav-item dropleft dropdown ${showDropdown ? 'show' : ''}`">
-          <a v-bind:style="`color: ${VUE_APP_NAVBAR_TEXT_CSS_COLOR};`" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" @click.prevent="showDropdown = !showDropdown" data-toggle="dropdown" aria-haspopup="true" :aria-expanded="showDropdown">
+          <a
+            id="navbarDropdownMenuLink"
+            :style="`color: ${VUE_APP_NAVBAR_TEXT_CSS_COLOR};`"
+            class="nav-link dropdown-toggle"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            :aria-expanded="showDropdown"
+            @click.prevent="showDropdown = !showDropdown"
+          >
             Categorías
           </a>
-          <div :class="`dropdown-menu ${showDropdown ? 'show' : ''}`" style="max-height: 200px; overflow: scroll;">
-            <router-link class="dropdown-item text-capitalize" :to="'/'" @click="showDropdown=false">Ver Todas</router-link>
-            <router-link v-for="(count, section) of sections" :key="section" class="dropdown-item text-capitalize" :to="`/${section}`" @click="showDropdown=false">{{section}} ({{count}})</router-link>
+          <div
+            :class="`dropdown-menu ${showDropdown ? 'show' : ''}`"
+            style="max-height: 200px; overflow: scroll;"
+          >
+            <router-link
+              class="dropdown-item text-capitalize"
+              :to="'/'"
+              @click="showDropdown=false"
+            >
+              Ver Todas
+            </router-link>
+            <router-link
+              v-for="(count, section) of sections"
+              :key="section"
+              class="dropdown-item text-capitalize"
+              :to="`/${section}`"
+              @click="showDropdown=false"
+            >
+              {{ section }} ({{ count }})
+            </router-link>
           </div>
         </li>
       </ul>
@@ -28,8 +78,14 @@ const { VUE_APP_NAVBAR_BG_CSS_COLOR = 'black', VUE_APP_NAVBAR_TEXT_CSS_COLOR = '
 
 export default {
   props: {
-    title: String,
-    sections: Object
+    title:  {
+      type: String,
+      default: ''
+    },
+    sections:  {
+      type: Object,
+      default: () => ({})
+    }
   },
   setup () {
     const showDropdown = ref(false)

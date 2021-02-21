@@ -1,6 +1,9 @@
 <template>
   <PatchMeta />
-  <NavBar :title="'👶 El Hijo de Satoshi 🕶️'" :sections="blogSections" />
+  <NavBar
+    :title="'👶 El Hijo de Satoshi 🕶️'"
+    :sections="blogSections"
+  />
   <Suspense>
     <template #default>
       <router-view />
