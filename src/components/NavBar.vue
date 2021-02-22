@@ -78,11 +78,11 @@ const { VUE_APP_NAVBAR_BG_CSS_COLOR = 'black', VUE_APP_NAVBAR_TEXT_CSS_COLOR = '
 
 export default {
   props: {
-    title:  {
+    title: {
       type: String,
       default: ''
     },
-    sections:  {
+    sections: {
       type: Object,
       default: () => ({})
     }
